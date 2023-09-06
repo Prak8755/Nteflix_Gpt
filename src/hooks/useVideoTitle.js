@@ -22,7 +22,7 @@ const  videoTitle=useSelector(s=>s.movies.videoTitle);
       if(!videoTitle){
         getVideoTitle()
       }
-    },[])
+    })
 }
 
 export default useVideoTitle

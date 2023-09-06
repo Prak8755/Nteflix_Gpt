@@ -21,7 +21,7 @@ dispatch(addUpcomingMovies(json?.results))
 if(!upcomingMovies){
     getUpcomingMovies();
 }
-    },[])
+    })
   
 }
 

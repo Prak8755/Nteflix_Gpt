@@ -22,7 +22,7 @@ setVideos(json?.results)
 
 useEffect(()=>{
 getVideo();
-},[])
+})
 
 
   return (

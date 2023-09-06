@@ -19,7 +19,7 @@ const useTrendingMovies = () => {
 if(!trendingMovies){
   getTrendingMovies();
 }
-  },[])
+  },)
 }
 
 export default useTrendingMovies

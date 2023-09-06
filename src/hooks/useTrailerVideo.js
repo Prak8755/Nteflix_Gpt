@@ -27,7 +27,7 @@ const useTrailerVideo = (id) => {
 if(!videoBackground){
     getTrailerVideo();
 }
-    },[])
+    })
 }
 
 export default useTrailerVideo

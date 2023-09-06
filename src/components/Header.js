@@ -47,7 +47,7 @@ const Header = () => {
   
       return ()=>{unsubscribe();}
     
-        },[])
+        },)
 
 // for toggling Gpt Search toggling page
         function gptToggle(){

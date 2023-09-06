@@ -20,7 +20,7 @@ dispatch(addPopularMovies(json.results))
 if(!popularMovies){
     getPopularMovies();
 }
-    },[])
+    })
   
 }
 
